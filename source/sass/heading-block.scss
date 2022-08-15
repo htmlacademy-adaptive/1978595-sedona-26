@@ -1,0 +1,23 @@
+.heading-block {
+  &__head {
+    width: 282px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__heading-text {
+    width: 282px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+  }
+}

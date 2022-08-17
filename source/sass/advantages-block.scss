@@ -1,0 +1,15 @@
+.advantages-block {
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+  &__item {
+
+    background-color: #EEEEEE;
+  }
+  &__item--blue-background {
+
+    background-color: #81B3D2;
+
+  }
+}

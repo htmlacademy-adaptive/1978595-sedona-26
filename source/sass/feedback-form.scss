@@ -1,0 +1,68 @@
+.feedback-form {
+  &__fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  &__fieldset-legend {
+    margin: 0 auto;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+  &__text-input{
+    width: 280px;
+    min-height: 58px;
+    background-color: #F2F2F2;
+    border: none;
+  }
+  &__label {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  &__label-radio {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  &__label-checkbox {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  &__textarea-input {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.3);
+    background: #F2F2F2;
+    border: none;
+  }
+  &__submit-button {
+    width: 281px;
+    min-height: 58px;
+    border: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #81B3D2;
+  }
+}

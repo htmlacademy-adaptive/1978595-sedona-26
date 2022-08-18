@@ -1,4 +1,6 @@
 .advantage-brick {
+  width: 289px;
+  padding: 39px 16px 35px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,6 +13,8 @@
     font-size: 18px;
     line-height: 26px;
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 8px;
 
   }
   &__number {
@@ -21,6 +25,8 @@
     line-height: 26px;
     text-transform: uppercase;
     color: #333333;
+    margin: 0;
+    margin-bottom: 8px;
   }
   &__description {
     font-family: 'PT Sans';
@@ -30,6 +36,7 @@
     line-height: 26px;
     text-transform: uppercase;
     color: #333333;
+    margin: 0;
   }
   &--white-text {
     color: #FFFFFF;

@@ -1,6 +1,7 @@
 // Начните писать стили здесь
 
 @use "./page.scss";
+@use "./index-main.scss";
 @use "./site-header.scss";
 @use "./main-navigation.scss";
 @use "./navigation-menu.scss";
@@ -13,4 +14,7 @@
 @use "./advantage-brick-inner.scss";
 @use "./advantages-block-inner.scss";
 @use "./search-invite.scss";
+@use "./banner-small.scss";
+@use "./feedback-form.scss";
+
 

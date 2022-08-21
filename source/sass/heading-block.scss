@@ -3,6 +3,7 @@
     width: 282px;
     margin: 0;
     padding: 0;
+    padding-bottom: 35px;
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 700;
@@ -12,6 +13,9 @@
     text-transform: uppercase;
   }
   &__heading-text {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 32px;
     width: 282px;
     font-family: 'PT Sans';
     font-style: normal;

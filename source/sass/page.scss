@@ -14,6 +14,11 @@
   src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .page {
   background: #E7E5E5;
 

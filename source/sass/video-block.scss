@@ -1,16 +1,12 @@
-.advantage-brick-inner {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  text-align: left;
-  min-width: 240px;
+.video-block {
+  border-top: 1px solid #E5E5E5;
   &__heading {
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
+    text-align: center;
     text-transform: uppercase;
   }
   &__description {
@@ -19,7 +15,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
+    text-align: center;
     text-transform: uppercase;
-    color: #333333;
+  }
+  &__video {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

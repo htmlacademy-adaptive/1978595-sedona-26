@@ -1,0 +1,43 @@
+.modal-success {
+  min-width: 320px;
+  min-height: 323px;
+  &__heading {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+  }
+  &__button-wrapper {
+    display: flex;
+    width: 100%;
+    height: 98px;
+    background: #F2F2F2;
+  }
+  &__button {
+    width: 280px;
+    min-height: 58px;
+    background: #81B3D2;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    margin: auto;
+  }
+}

@@ -1,0 +1,53 @@
+.advantage-brick {
+  width: 289px;
+  padding: 39px 16px 35px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  &__heading {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 8px;
+
+  }
+  &__number {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  &__description {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0;
+  }
+  &--white-text {
+    color: #FFFFFF;
+  }
+
+  &--white-text &__number{
+    color: #FFFFFF;
+  }
+
+  &--white-text &__description{
+    color: #FFFFFF;
+  }
+
+}

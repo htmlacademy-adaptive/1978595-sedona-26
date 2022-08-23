@@ -1,0 +1,23 @@
+.main-navigation {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 320px;
+  min-height: 56px ;
+  &__logo {
+    position: absolute;
+    z-index: 3;
+  }
+  &__toggle {
+    position: absolute;
+    right: 16px;
+    top: 17px;
+    z-index: 7;
+  }
+  &__navigation-menu {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+}

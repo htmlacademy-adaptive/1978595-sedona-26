@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.page {
+  background: #E7E5E5;
+
+  &__body {
+    width: 320px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+  }
+}
+

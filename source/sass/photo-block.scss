@@ -1,0 +1,39 @@
+.photo-block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: 1px solid #E5E5E5;
+  &__heading {
+    margin: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+  &__image {
+    padding-top: 24px;
+    order: -2;
+  }
+  &__author {
+    margin: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__likes-count {
+    margin: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+  }
+}

@@ -1,0 +1,8 @@
+.banner-small {
+  width: 320px;
+  &__img {
+    padding: 52px 45px 67px 46px;
+    background-image: url(../img/background-banner-small.jpg);
+    background-color: #000000;
+  }
+}

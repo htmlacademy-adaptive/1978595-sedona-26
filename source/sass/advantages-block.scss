@@ -13,3 +13,34 @@
 
   }
 }
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .advantages-block {
+    width: 768px;
+    &__list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__item {
+      min-width: 256px;
+      min-height: 256px;
+    }
+    &__item--image {
+      width: 512px;
+    }
+    &__item--image-1 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+    &__item--image-2 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    &__item--inner {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+}
+
+@media (min-width: 1280px) {}

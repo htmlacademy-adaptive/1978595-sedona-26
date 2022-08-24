@@ -9,19 +9,24 @@
   <body class="page__body">
     <header class="page__header site-header">
       <nav class="main-navigation">
-        <div class="main-navigation__logo">
+        <div class="main-navigation__logo--outer">
           <a href="index.html">
-            <img src="img/sedona-logo.svg" width="185" height="96" alt="Логотип отеля Седона." class="logo-img">
+            <img class="logo-img" src="img/sedona-logo.svg" width="185" height="96" alt="Логотип отеля Седона." >
           </a>
         </div>
         <button class="main-navigation__toggle"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-navigation__navigation-menu navigation-menu">
           <ul class="navigation-menu__list">
-            <li class="navigation-menu__item navigation-menu__item--current">
-              <a class="navigation-menu__link">Главная</a>
+            <li class="navigation-menu__item navigation-menu__item">
+              <a class="navigation-menu__link navigation-menu__link--current" href="index.html">Главная</a>
             </li>
             <li class="navigation-menu__item">
               <a class="navigation-menu__link" href="catalog.html">Фото и видео</a>
+            </li>
+            <li class="navigation-menu__item navigation-menu__item--logo">
+              <a class="navigation-menu__logo--inner" href="index.html">
+                <img src="img/sedona-logo.svg" width="185" height="96" alt="Логотип отеля Седона." class="navigation-menu__logo-img">
+              </a>
             </li>
             <li class="navigation-menu__item">
               <a class="navigation-menu__link" href="form.html">Форма отзыва</a>
@@ -40,11 +45,11 @@
 
       <section class="index-main__banner sedona-banner">
         <h2 class="visually-hidden">Баннер Седона</h2>
-        <img class="sedona-banner__image" src="img/banner-text.png" alt="Рекламный баннер Седоны." width="282" height="214">
+        <img class="sedona-banner__image" src="img/sedona-banner-big.svg" alt="Рекламный баннер Седоны." width="282" height="214">
       </section>
 
       <section class="index-main__heading heading-block">
-        <h2 class="heading-block__head">Седона — небольшой<br>городок в Аризоне, заслуживающий большего!</h2>
+        <h2 class="heading-block__head">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="heading-block__heading-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
 

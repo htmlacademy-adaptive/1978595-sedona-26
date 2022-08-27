@@ -1,0 +1,24 @@
+.sedona-map {
+  &__map {
+    border: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .sedona-map {
+    &__map {
+      width: 768px;
+      height: 350px;
+    }
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .sedona-map {
+    &__map {
+      width: 1200px;
+      height: 350px;
+    }
+  }
+}

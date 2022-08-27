@@ -73,6 +73,7 @@
     line-height: 26px;
   }
   &__textarea-input {
+
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 700;
@@ -81,6 +82,7 @@
     color: rgba(0, 0, 0, 0.3);
     background: #F2F2F2;
     border: none;
+    resize: none;
   }
   &__submit-button {
     width: 281px;
@@ -106,5 +108,42 @@
     line-height: 21px;
     align-self: flex-end;
     text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .feedback-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__input-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    &__fieldset-wrapper--half-width {
+      width: 50%;
+    }
+    &__fieldset-wrapper--full-width {
+      width: 100%;
+    }
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .feedback-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__input-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    &__fieldset-wrapper--half-width {
+      width: 50%;
+    }
+    &__fieldset-wrapper--full-width {
+      width: 100%;
+    }
   }
 }

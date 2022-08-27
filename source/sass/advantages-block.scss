@@ -43,4 +43,31 @@
   }
 }
 
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+  .advantages-block {
+    width: 1200px;
+    &__list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__item {
+      min-width: 400px;
+      min-height: 256px;
+    }
+    &__item--image {
+      width: 800px;
+    }
+    &__item--image-1 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+    &__item--image-2 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    &__item--inner {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+}

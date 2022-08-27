@@ -71,5 +71,12 @@
 }
 
 @media (min-width: 1280px) {
-
+  .advantage-brick {
+    width: 295px;
+    min-height: 153px;
+  }
+  .advantage-brick--image {
+    width: 800px;
+    min-height: 256px;
+  }
 }

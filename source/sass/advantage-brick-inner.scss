@@ -32,4 +32,10 @@
   }
 }
 
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+  .advantage-brick-inner {
+    min-width: 282px;
+    min-height: 92px;
+    margin: 0 auto;
+  }
+}

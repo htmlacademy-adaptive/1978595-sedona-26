@@ -59,9 +59,9 @@
     opacity: 0.3;
     background-color: #5496BD;
   }
-  &__link:visited {
-    color: #FFFFFF;
-  }
+  // &__link:visited {
+  //   color: #FFFFFF;
+  // }
 
 }
 
@@ -111,12 +111,13 @@
       opacity: 0.3;
       background-color: #FFFFFF;
     }
-    &__link:visited {
-      color: #000000;
-    }
     &__link--current {
       color: #766357;
     }
+    // &__link:visited {
+    //   color: #000000;
+    // }
+
     &__logo-inner {
       display: block;
       z-index: 5;
@@ -171,12 +172,12 @@
       opacity: 0.3;
       background-color: #FFFFFF;
     }
-    &__link:visited {
-      color: #000000;
-    }
     &__link--current {
       color: #766357;
     }
+    // &__link:visited {
+    //   color: #000000;
+    // }
     &__logo-inner {
       display: block;
       z-index: 5;
